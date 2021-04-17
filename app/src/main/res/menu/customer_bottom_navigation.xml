@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/customerHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/customerBook"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:title="Book" />
+
+
+    <item
+        android:id="@+id/customerOrders"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="Orders" />
+
+
+    <item
+        android:id="@+id/customerRate"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="Rate" />
+
+
+</menu>

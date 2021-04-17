@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89215944845",
+    "project_id": "teflawn-50696",
+    "storage_bucket": "teflawn-50696.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89215944845:android:5d91a30867198cce9ffac4",
+        "android_client_info": {
+          "package_name": "com.melborp.teflawn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89215944845-7s5153aminp6dofjc8rq7omtf0bgsr6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAu0-ukAgTCfbAQVJ4lm3_29vewLgTdog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89215944845-7s5153aminp6dofjc8rq7omtf0bgsr6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

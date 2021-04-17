@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activities.MainActivity"
+    android:background="@drawable/tef_header">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <RelativeLayout
+           android:layout_marginTop="25dp"
+           android:layout_marginRight="28dp"
+           android:layout_marginLeft="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+        <!--   <TextView
+               android:id="@+id/teflawn_title"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/aclonicaa"
+               android:text="TefLawn"
+               android:textColor="#fff"
+               android:textSize="30sp" />-->
+
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+               android:textColor="@android:color/white"
+               android:text="Select Lawn Care Service"
+               android:textSize="20sp" />
+       </RelativeLayout>
+
+       <GridLayout
+           android:layout_marginTop="70dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:columnCount="2"
+           android:rowCount="2"
+           android:columnOrderPreserved="false"
+           android:alignmentMode="alignMargins">
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+
+               <LinearLayout
+                   android:id="@+id/linearMower"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   android:padding="16dp">
+
+
+                   <ImageView
+                       android:id="@+id/imgMower"
+                       android:layout_width="88dp"
+                       android:layout_height="88dp"
+                       android:src="@drawable/lawn_mower" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Lawn Mowing"
+                       android:textSize="18sp"
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                       android:textColor="#6f6f6f"
+                       android:layout_marginTop="12dp"/>
+
+
+               </LinearLayout>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+
+               <LinearLayout
+                   android:id="@+id/linearSeeding"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   android:padding="16dp">
+
+
+                   <ImageView
+                       android:layout_width="88dp"
+                       android:layout_height="88dp"
+                       android:src="@drawable/seed" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Seeding"
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                       android:textSize="18sp"
+                       android:textColor="#6f6f6f"
+                       android:layout_marginTop="12dp"/>
+
+
+               </LinearLayout>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginTop="50dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+
+               <LinearLayout
+                   android:id="@+id/linearWater"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   android:padding="16dp">
+
+
+                   <ImageView
+                       android:layout_width="88dp"
+                       android:layout_height="88dp"
+                       android:src="@drawable/watering_plants" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Gardening"
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                       android:textSize="18sp"
+                       android:textColor="#6f6f6f"
+                       android:layout_marginTop="12dp"/>
+
+
+               </LinearLayout>
+
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginTop="50dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_columnWeight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+
+               <LinearLayout
+                   android:id="@+id/linearDesigning"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   android:padding="16dp">
+
+
+                   <ImageView
+                       android:layout_width="88dp"
+                       android:layout_height="88dp"
+                       android:src="@drawable/table" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Designing"
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                       android:textSize="18sp"
+                       android:textColor="#6f6f6f"
+                       android:layout_marginTop="12dp"/>
+
+
+               </LinearLayout>
+
+
+           </androidx.cardview.widget.CardView>
+
+       </GridLayout>
+
+
+
+
+
+
+
+   </LinearLayout>
+
+   <!-- <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/rippleBook"
+        style="@style/RippleStyleWhite"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/green_300">
+
+        <TextView
+            android:id="@+id/textBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rate Our Service"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="@android:color/white" />
+    </com.balysv.materialripple.MaterialRippleLayout>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
